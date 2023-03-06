@@ -120,7 +120,7 @@ services:
 
   # guacamole
   guacamole:
-    container_name: guacamole_compose
+    container_name: guacamole-client
     depends_on:
     - guacd
     - postgres
